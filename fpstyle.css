@@ -1,0 +1,320 @@
+/* under this is for global areas */
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+}
+ul{
+    text-align: left;
+}
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+/* edits for ids*/
+#bigimg{
+    width: 100%;
+    height: 99vh;
+}
+#about-me{
+    display: none;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(241, 243, 241);
+    overflow: scroll;
+}
+#contact-me{
+    display: none;
+    width: 100%;
+    height: 45vh;
+    background-color:#ffffff;
+    margin-top: -15px;
+    margin: 0 auto;
+    overflow: scroll;
+}
+#contact-me-button, #resume-button{
+    color: black;
+    transition-property: background-color, color;
+    transition-duration: 2s;
+    transition-delay: .1s;
+}
+#contact-me-button:hover, #resume-button:hover{
+    background-color:black;
+    color: white;
+}
+#resume-area{
+    display: none;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(241, 243, 241);
+    overflow: scroll;
+}
+#image_container{
+    position: relative;
+    text-align: center;
+    color: rgb(253, 251, 251);
+  
+}
+#title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Karla;
+    font-size: 70px;
+    background-color:black;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition-property: background-color, color;
+    transition-duration: 2s;
+    transition-delay: .1s;
+}
+#title:hover{
+    background-color: white;
+    color:black
+}
+#pages_row{
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        width: auto;
+        height: auto;
+        display: inline-block;
+}
+
+#icon_row{
+    position: absolute;
+        bottom: 40px;
+        right: 160px;
+        width: 100px;
+        height: 20px;
+}
+#insta, #git, #twitch{
+    height: 40px;
+    width: 40px;
+}
+
+#linkedin, #handshake{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+#resume-download{
+    height: 50px;
+    width: 200px;
+}
+
+#resume-head{
+    font-family: Yellowtail, Karla;
+    font-size: 50px;
+}
+
+#webdev-img, #blog-img{
+    width: 450px;
+    height: 400px;
+}
+
+#footer-txt1{
+    color:white;
+    font-family: Karla;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+#footer-txt3{
+    text-align: right;
+    color: white;
+    font-size: 14px;
+    font-family: Karla;
+    margin: 0 10px 0 0;
+}
+
+#about-me-header{
+    font-family: Karla;
+    text-align: center;
+}
+
+#ab-title{
+    font-family: Acme;
+    font-size: 30px;
+    margin: 0;
+}
+
+#case-link{
+    text-decoration: underline, bold;
+    color: black;
+}
+#finance-but, #compsci-but{
+    height: 2.33em;
+    width: 150px;
+    font-size: 15px;
+    font-family: Karla;
+    background-color: aliceblue;
+    border: 2px black solid;
+    transition-property: background-color, font-weight;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+#finance-but:hover, #compsci-but:hover{
+    background-color:rgba(167, 176, 246, 1);
+    font-weight: bold;
+    font-family: Karla;
+}
+
+#about-me-body-fin{
+    display: none;
+    font-family: Karla;
+    font-size: 18px;
+}
+#fin-titles, #cs-titles{
+    font-size: 24px;
+}
+#fin-experience, #fin-skills, #cs-skills, #cs-xp{
+    text-align: center;
+}
+#fin-img, #cs-pic{
+    display: block;
+    justify-content: flex-end;
+    height: auto;
+    width: auto;
+    max-height: 225px;
+    max-width: 250px;
+    padding: none;
+    margin-bottom: 20px;
+}
+#about-me-body-cs{
+    display:none;
+    font-family: Karla;
+}
+#pic-of-me{
+    height: 250px;
+    width: 370px;
+}
+#contact-title{
+    font-family: Acme;
+    font-size: 30px;
+    text-align: center;
+}
+#contact-par{
+    font-family: Karla;
+    font-size: 18px;
+    text-align: center;
+}
+#recaptcha{
+    margin: 0 auto;
+    text-align: center;
+}
+#contact-checkbox-label, #contact-checkbox{
+    font-size: 16px;
+    float: none;
+    cursor: pointer;
+}
+#contact-submit{
+    margin-top: 15px;
+    height: 40px;
+    width: 190px;
+    font-size: 15px;
+    font-family: Karla;
+    background-color: rgb(152, 196, 247);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+#contact-left-img, #contact-right-img{
+    height: 350px;
+    width: 350px;
+    margin-left: 150px;
+}
+/* edits for classes*/
+.pages_button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Karla;
+    cursor: pointer;
+}
+.row-icon{
+    display: flex;
+}
+.column-icon{
+    flex: 20%;
+    padding: 5px;
+}
+
+.ab-row1{
+    display:flex;
+}
+.ab-col1{
+    flex:50%;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+.fin-row{
+    display: flex;
+    width: 100%;
+}
+.fin-col{
+    flex: 33.33%;
+    padding: 8px;
+}
+.cs-row{
+    display: flex;
+    width: 100%;
+}
+.cs-col{
+    flex: 33.33%;
+    padding: 8px;
+}
+.button-box-row{
+    width: 300px;
+    display:flex !important;
+}
+
+.button-box-col{
+    flex: 50%;
+    padding: 5px;
+}
+
+.contact-row{
+    display:flex;
+    width: 100%;
+}
+.contact-col{
+    flex: 33.33%;
+    padding: 5px;
+    font-family: Karla;
+}
+.resume-row{
+    display: flex;
+}
+
+.resume-column{
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+
+.resume-txt{
+    font-family: Karla;
+    font-size: 20px;
+}
+.footer-row{
+    display:flex;
+}
+.footer-col{
+    flex:33.33%;
+    padding: 0 5px 0 5px;
+}
+.submit-button{
+    cursor: pointer;
+}
